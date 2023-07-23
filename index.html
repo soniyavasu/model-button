@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model Button</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container1 {
+        width: 90%;
+        padding: 30px;
+        margin: 50px;
+        box-shadow: 2px 3px 6px 5px #cccccc61; 
+      }
+      .container {
+        width: 90%;
+        padding: 30px;
+        margin: 50px;
+        box-shadow: 2px 3px 6px 5px #cccccc61;
+      }
+      .container0{
+       border-radius:5px;
+       display:flex;
+      }
+      .container2 {
+        width: 90%;
+        padding:40px;
+        margin:50px;
+        box-shadow: 2px 3px 6px 5px #cccccc61;
+      }
+      .btn_Success {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        
+       
+      }
+      .btn_Danger {
+        background-color: #f44336;
+        color: white;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        
+      }
+      .btn_Warning {
+        background-color: #f5dd42;
+        color: black;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        
+      }
+      .btn_link {
+        background-color: blue;
+        color: white;
+        text-decoration: underline blue 1px;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        position: absolute;
+        margin-top: -15px;
+       
+      }
+    .dot{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border: 1px solid red;
+        border-radius: 50%;
+        background-color: red;
+        position: relative;
+        bottom:18px;
+        left:98px;
+      }
+      .num{
+       
+        width: 15px;
+        height: 15px;
+        border: 1px solid red;
+        border-radius:20px;
+        background-color: red;
+        color: white;
+        position: relative;
+        padding:3px 5px;
+        bottom:18px;
+        left:85px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <div class="container0">
+            <button class="button btn_Danger" id="anu">Left</button>
+            <button class="button btn_Warning">Middle</button>
+            <button class="button btn_Success">Right</button>
+        </div>
+      </div>
+      <div class="container2">
+        <button class="button btn_link">Inbox</button>
+        <span class="num">99+</span>
+      </div>
+      <div class="container2">
+        <button class="button btn_link">Profile</button>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <!-- <script>
+        document.getElementById('anu').addEventListener('click',function(){let a = this; a.style.backgroundColor='green'})
+    </script> -->
+
+  </body>
+
+</html>
